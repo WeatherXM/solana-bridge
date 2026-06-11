@@ -1,7 +1,10 @@
-# Dummy commit to trigger Cloudflare autodeployment
-name = "solana-bridge-test"
+name = "solana-bridge"
 compatibility_date = "2026-06-11"
 
 [assets]
 directory = "./build"
 not_found_handling = "single-page-application"
+
+[[routes]]
+pattern = "bridge-solana.weatherxm.network"
+custom_domain = true
