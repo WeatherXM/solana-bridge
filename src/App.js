@@ -2,7 +2,7 @@ import WormholeConnect from '@wormhole-foundation/wormhole-connect';
 
 const config: WormholeConnectConfig = {
   networks: ['ethereum', 'solana'],
-  walletConnectProjectId: '....',
+  walletConnectProjectId: '7f190010b21bea4204fc338d8946d9d9',
   routes: ['nttManual'],
   rpcs: {
       solana: 'https://api.mainnet-beta.solana.com',
