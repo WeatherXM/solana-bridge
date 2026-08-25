@@ -6,36 +6,22 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
 }
 
-.app-container {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.bridge-wrapper {
-  flex: 1;
+.bridge-github-link {
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.bridge-footer {
-  padding: 20px 16px 28px;
   text-align: center;
-  font-size: 13px;
+  margin: 20px 0 10px 0;
+  font-size: 15px;
 }
 
-.bridge-footer a {
-  color: #888888;
+.bridge-github-link a {
+  color: #9e9e9e;
   text-decoration: none;
   display: inline-flex;
   align-items: center;
   transition: color 0.2s ease;
+  font-weight: 400;
 }
 
-.bridge-footer a:hover {
+.bridge-github-link a:hover {
   color: #ffffff;
 }
