@@ -5,8 +5,8 @@ const config: WormholeConnectConfig = {
   walletConnectProjectId: '7f190010b21bea4204fc338d8946d9d9',
   routes: ['nttManual'],
   rpcs: {
-      solana: 'https://api.mainnet-beta.solana.com',
-      ethereum: 'https://cloudflare-eth.com'
+      solana: 'https://solana-rpc.publicnode.com',
+      ethereum: 'https://rpc.mevblocker.io'
     },
   tokens: ['WXMeth', 'WXMsolana'],
   tokensConfig: {
